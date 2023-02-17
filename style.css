@@ -1,0 +1,68 @@
+body {
+  background-color: #557799;
+  font-size: 35px;
+  font-family: math;
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h2 {
+  margin: 0;
+}
+
+.break-session-length {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+button {
+  border: none;
+  padding: 9px;
+  font-size: 27px;
+  border-radius: 4px;
+}
+
+div > button {
+  color: white;
+  background-color: #448844;
+}
+
+div button:nth-child(2) {
+  color: #000;
+  background-color: #884444;
+}
+
+strong {
+  margin: -10px 8px;
+}
+
+.timer {
+  border: 5px solid #ccc;
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 20px;
+}
+
+.timer-wrapper > button {
+  margin-left: 20px
+}
+
+#break-decrement, #session-decrement {
+  background-color: #554433;
+}
+
+#reset {
+  background-color: #998800;
+}
+
+h3 {
+  text-align: center;
+}
